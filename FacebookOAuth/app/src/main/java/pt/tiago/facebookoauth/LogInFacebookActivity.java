@@ -35,8 +35,8 @@ import java.util.List;
 public class LogInFacebookActivity extends Activity {
 
     private static final String REDIRECT_URI = "https://localhost/";
-    private static final String CLIENTID = "1402824460020986";
-    private static final String CLIENTSECRET = "97b36689dbfee0e5453af8efabfe87a4";
+    private static final String CLIENTID = "";
+    private static final String CLIENTSECRET = "";
     private static final String AUTHORIZATION_ENDPOINT = "https://www.facebook.com/dialog/oauth?" +
             "client_id=" + CLIENTID +
             "&client_secret=" + CLIENTSECRET +
